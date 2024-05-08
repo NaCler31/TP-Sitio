@@ -384,6 +384,109 @@
             <p>¿Tienes alguna pregunta o deseas reservar una cabaña? ¡Estamos aquí para ayudarte! Completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible.</p>
             <a href="#">Formulario de Contacto</a>
             <p>¡Esperamos recibir tu mensaje y ayudarte a planificar una estadia inolvidable en nuestras cabañas! 🌲🏡</p>
+             <form>
+    <h1>¡Que esperas reserva ahora!</h2>
+  </form>
+          <fieldset>
+            <form><h2>Regístrate</h2></form>
+            
+            
+            <label for="nombre">Nombre:</label>
+            <input size="25" type="text"nombre="nombre"placeholder="Ingrese su nombre aqui...">
+
+            <label for="apellido">Apellido:</label>
+            <input size="25" type="text"apellido="apellido"placeholder="Ingrese su apellido aqui...">
+            <br></br>
+
+            <label for="dni">Número de documento</label>
+            <input size="20" type="text"número="número de documento"placeholder="Ingrese su DNI aqui...">
+
+            <label for="número de teléfono">Número de teléfono</label>
+            <input size="29" type= "text"número de teléfono="número de teléfono"placeholder="Ingrese su número de teléfono aqui...">
+            <br></br>
+
+            <label for="email">Email</label>
+            <input size="28" type="text"email="email"placeholder="Ingrese su correo electrónico aqui...">
+            <br></br>
+
+            <table>
+              <tr>
+                <th>Selecciona tu cabaña:</th>
+                <td>
+                  <input type="checkbox"id="magnolia"name="cabaña"value="Magnolia">
+                  <label for="magnolia">Cabaña Magnolia</label>
+                  
+                  <input type="checkbox"id="orquidia"name="cabaña"value="Orquidia">
+                  <label for="orquidia">Cabaña Orquidia</label> 
+                </td>  
+              </tr>
+              
+            </table>
+            <br>
+
+            <table>
+              <tr>
+                <th>Fecha de Ingreso</th>
+                <td><input type="date"id="fechaIngreso"name="fechaIngreso"required></td>
+              </tr>
+            </table>
+            <br>
+
+            <table>
+              <tr>
+                <th>Fecha de Egreso</th>
+                <td><input type="date"id="fechaEgreso"name="fechaEgreso"required></td>
+              </tr>
+            </table>
+            <br>
+              
+            <table>
+              <tr>
+                <th>Cantidad de huespedes</th>
+                <td><input type="number"id="huespedes"name="huespedes"min="1"required></td>
+              </tr>  
+            </table>
+            <br>
+
+            <table>
+              <tr>
+                <th>Seleccione medio de pago:</th>
+                <td>
+                  <input type="checkbox"id="tarjetaDebito"name="medioPago"value="tarjetaDebito">
+                  <label for="tarjetaDebito">Tarjeta de débito</label>
+
+                  <input type="checkbox" id="tarjetaCredito" name="medioPago" value="tarjetaCredito">
+                  <label for="tarjetaCredito">Tarjeta de crédito</label>
+
+                  <input type="checkbox" id="efectivo" name="medioPago" value="efectivo">
+                  <label for="efectivo">Efectivo</label>
+                </td>
+              </tr> 
+            </table>
+            <br>
+
+            <label for="tarjeta">Número de tarjeta:</label>
+            <input size="28" type="numero"placeholder="Ingrese su número de tarjeta aqui...">
+
+            <label for="tarjeta">Nombre de titular:</label>
+            <input size="25" type="text"nombre="nombre"placeholder="Ingrese nombre del titular aqui...">
+
+            <label for="tarjeta">Fecha de vencimiento:</label>
+            <input size="28" type="text"vencimiento="vencimiento"placeholder="Ingrese fecha de vencimiento aqui...">
+
+            <label for="tarjeta">Número de tarjeta:</label>
+            <input size="28" type="text"numero="numero"placeholder="Ingrese su número de tarjeta aqui...">
+            <br>
+
+            <form>
+              <h2>Por consultas escríbenos y a la brevedad te responderemos:</h2>
+              <textarea name="dudas" rows="4" cols="100" placeholder="Escribe aquí tus preguntas..."></textarea>
+              <input type="submit" value="Enviar">
+              <button type="submit">Reservar</button>
+
+          </form>
+
+          </fieldset>
         </div>
         <div id="ubicacion" class="ubicacion">
             <h4 id="tituloubi">Ubicacion</h4>
