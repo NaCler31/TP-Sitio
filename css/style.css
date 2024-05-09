@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Barra de navegación */
+/* Barra de navegación menu*/
 .navbar {
     display: flex;
     align-items: center;
@@ -15,8 +15,8 @@
 }
 
 /* Logo */
-#logo-img{
-    width: 1em;
+.logo-img{
+    width: 5em;
     border-radius: 4em;
     display: flex;
     position: relative;
@@ -26,15 +26,17 @@
 
 /* Menú */
 
-header{
+header.menu{
     text-align: right;
+    display: flex;
+    gap: 20px;
     background-color: #E5E5E5;
     -webkit-box-shadow: 0px 2px 13px 2px rgba(0,0,0,0.64); 
     box-shadow: 0px 2px 13px 2px rgba(0,0,0,0.64);
 }
 
-ul li 
-{
+.menu li{
+    margin-right: 10px;
     display: inline-block;
     text-decoration: none;
     list-style-type: none;
@@ -50,17 +52,17 @@ a{
     color: black;
 }
 
-header div ul li a {
+header.menu a {
     text-decoration: none;
     display: inline-block;
 }
 
 /* Cambio de color al posicionarse con el mouse */
 .menu li:hover a {
-    background-color: #0D66AB;
+    background-color: white0;
 }
 
-/* Fin del menú */
+/* Fin de barra navegacion menú */
 
 
 /* Seccion info de nosotros */
@@ -68,6 +70,7 @@ header div ul li a {
 .box-shadow{
     -webkit-box-shadow: 0px 2px 13px 2px rgba(0,0,0,0.64); 
     box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.64);
+    
     /*manipulacion del texto de caja y sus imagenes*/
     font-family: sans-serif;
     text-align: right;
