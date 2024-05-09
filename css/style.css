@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+/* Barra de navegación */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
 /* Logo */
 #logo-img{
     width: 1em;
@@ -15,6 +25,7 @@
 }
 
 /* Menú */
+
 header{
     text-align: right;
     background-color: #E5E5E5;
@@ -43,6 +54,12 @@ header div ul li a {
     text-decoration: none;
     display: inline-block;
 }
+
+/* Cambio de color al posicionarse con el mouse */
+.menu li:hover a {
+    background-color: #0D66AB;
+}
+
 /* Fin del menú */
 
 
